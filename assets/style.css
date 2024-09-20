@@ -1,0 +1,107 @@
+/* Archivo: styles.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+
+.navbar .navbar-brand, .navbar .nav-link {
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar .navbar-brand:hover, .navbar .nav-link:hover {
+    color: #ffd700;
+}
+
+/* Carousel */
+.carousel-item img {
+    height: 70vh;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #007bff;
+    border-radius: 50%;
+}
+
+/* Presentación */
+.presentation {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.presentation h2 {
+    font-size: 2.5rem;
+    color: #007bff;
+}
+
+.presentation p {
+    font-size: 1.2rem;
+    color: #343a40;
+}
+
+/* Destacados */
+#destacados {
+    background-color: #e9ecef;
+    padding: 60px 0;
+}
+
+#destacados .card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+#destacados .card:hover {
+    transform: scale(1.05);
+}
+
+#destacados .card-title {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Contacto */
+#contacto {
+    padding: 60px 0;
+}
+
+#contacto h2 {
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+#contacto .form-label {
+    color: #343a40;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+footer a {
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #ffd700;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .navbar .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    #destacados .card-title {
+        font-size: 1.2rem;
+    }
+}
